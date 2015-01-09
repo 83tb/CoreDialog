@@ -1,9 +1,12 @@
 #include <CoreDialog.h>
 
+
+// This sketch is only for testing purposes, do not use it.
+
 CoreDialog ET;
 
 struct RECEIVE_DATA_STRUCTURE{
- 
+
   int blinks;
   int pause;
   int address;
@@ -22,10 +25,10 @@ RECEIVE_DATA_STRUCTURE mydata;
 void setup(){
   Serial.begin(9600);
   Serial1.begin(9600);
-  
-  ET.begin(details(mydata), &Serial1); 
+
+  ET.begin(details(mydata), &Serial1);
   pinMode(9, OUTPUT);
-  
+
 }
 
 void loop(){
@@ -39,8 +42,8 @@ void loop(){
     }
   }
 
-  
-  
+
+
   // ten delay musi byc krotki
   delay(250);
 }
