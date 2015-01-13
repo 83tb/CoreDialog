@@ -1,1 +1,1 @@
-CoreDialog Library was created for connecting multiple Arduinos into the self-organizing network and sending serial commands throughout this network.
+CoreDialog Library was created for connecting multiple Arduinos into the self-organizing network and sending serial commands throughout this network. You can test it using Arduino Mega platform, it's designed to work with multiple serial ports.
